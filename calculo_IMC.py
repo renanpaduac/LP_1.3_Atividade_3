@@ -61,19 +61,19 @@ labHeight.place(x=5, y=75)
 valorAltura = tkinter.Entry(app, width=20)
 valorAltura.place(x=5, y=125)
 
-botaoCalc = tkinter.Button(app, text="Calcular", command=botaoCalcula, font=("Lucida", 16))
+botaoCalc = tkinter.Button(app, text="Calcular", command=botaoCalcula, background="green",foreground="white",font=("Lucida", 16))
 botaoCalc.place(x=5, y=160)
 
-botaoReset = tkinter.Button(app, text="Reiniciar", command=resetar, font=("Lucida", 16))
+botaoReset = tkinter.Button(app, text="Reiniciar", command=resetar, background="Yellow",font=("Lucida", 16))
 botaoReset.place(x=140, y=160)
 
-botaoSair = tkinter.Button(app, text="Sair", command=app.destroy, font=("Lucida", 16))
+botaoSair = tkinter.Button(app, text="Sair", command=app.destroy, background="Red",foreground="white",font=("Lucida", 16))
 botaoSair.place(x=280, y=160)
 
 labelResp = tkinter.Label(app, text="Resposta:", font=("Lucida", 20))
 labelResp.place(x=5, y=210)
 
-labelResultado = tkinter.Label(app, text="", font=("Lucida", 20))
+labelResultado = tkinter.Label(app, text="", background="blue",font=("Lucida", 28))
 labelResultado.place(x=5, y=250)
 
 app.mainloop()
