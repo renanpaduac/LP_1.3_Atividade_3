@@ -73,7 +73,7 @@ botaoSair.place(x=280, y=160)
 labelResp = tkinter.Label(app, text="Resposta:", font=("Lucida", 20))
 labelResp.place(x=5, y=210)
 
-labelResultado = tkinter.Label(app, text="", background="blue",font=("Lucida", 28))
+labelResultado = tkinter.Label(app, text="", background="cyan",font=("Lucida", 28))
 labelResultado.place(x=5, y=250)
 
 app.mainloop()
